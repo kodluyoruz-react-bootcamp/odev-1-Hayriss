@@ -1,0 +1,21 @@
+{
+  "name": "odev",
+  "version": "1.0.0",
+  "description": "odev_1",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "build": "^0.1.4",
+    "sucrase": "^3.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "author": "",
+  "license": "ISC"
+}
